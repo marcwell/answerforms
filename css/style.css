@@ -794,14 +794,14 @@ h1, h2, h3, h4, h5,
     background-repeat: no-repeat; }
   .site-section-cover h1 {
     font-size: 4.5rem;
-    color: #fff;
+    color: black;
     line-height: 1; }
     @media (max-width: 991.98px) {
       .site-section-cover h1 {
         font-size: 2rem; } }
   .site-section-cover p {
     font-size: 18px;
-    color: #fff; }
+    color: black; }
 
 .site-section {
   padding: 7rem 0; }
@@ -1285,7 +1285,7 @@ h1, h2, h3, h4, h5,
   .ftco-cover-1,
   .ftco-cover-1 .container > .row {
     height: 100vh;
-    min-height: 600px; }
+    min-height: 350px; }
   .ftco-cover-1 > .container {
     position: relative; }
   .ftco-cover-1.overlay {
@@ -1298,20 +1298,13 @@ h1, h2, h3, h4, h5,
       right: 0;
       bottom: 0;
       opacity: .95;
-      background: #377aff;
-      background: -moz-linear-gradient(45deg, #377aff 0%, #00d9ff 100%);
-      background: -webkit-gradient(left bottom, right top, color-stop(0%, #377aff), color-stop(100%, #00d9ff));
-      background: -webkit-linear-gradient(45deg, #377aff 0%, #00d9ff 100%);
-      background: -o-linear-gradient(45deg, #377aff 0%, #00d9ff 100%);
-      background: -ms-linear-gradient(45deg, #377aff 0%, #00d9ff 100%);
-      background: linear-gradient(45deg, #377aff 0%, #00d9ff 100%);
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#377aff', endColorstr='#00d9ff', GradientType=1); }
     .ftco-cover-1.overlay h1 {
-      color: #fff; }
+      color: black; }
     .ftco-cover-1.overlay p {
-      color: #fff; }
+      color: black; }
       .ftco-cover-1.overlay p a {
-        color: #fff;
+        color: black;
         text-decoration: underline;
         font-weight: 700; }
         .ftco-cover-1.overlay p a:hover {
