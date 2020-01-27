@@ -242,8 +242,10 @@ a {
 
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
-  font-family: "Oswald", sans-serif;
-  text-transform: uppercase; }
+  font-family: "Open Sans Condensed", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold; }
+
 
 .border-2 {
   border-width: 2px; }
@@ -1274,8 +1276,7 @@ h1, h2, h3, h4, h5,
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%); }
 
-.ftco-blocks-cover-1 .ftco-service-image-1 {
-  margin-top: -70px;
+.-cover-1 .ftco-service-image-1 {  
   position: static; }
 
 .ftco-cover-1 {
@@ -1389,3 +1390,7 @@ h1, h2, h3, h4, h5,
 
 .bg-light {
   background-color: #f6f5f5 !important; }
+
+.answer-form {
+  margin-top: 15vh;
+}
