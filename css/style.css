@@ -1397,3 +1397,30 @@ h1, h2, h3, h4, h5,
   margin-top: 15vh;
 }
 
+.tile-back {
+  background-image: url("../images/tile-3-01.svg") !important;
+}
+
+.owl-back{
+
+  background: white;
+  min-height: 450px;
+  border: 1px solid #00208e;
+}
+
+.icon-img {
+  margin-top: 1em;
+  max-height: 100px;
+  max-width: 100px;
+}
+
+.owl-break {
+display: block;
+height: 3px;
+width: 64px;
+border: 0;
+border-top: 3px solid;
+margin: 1em 0;
+padding: 0;
+}
+
