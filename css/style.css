@@ -1292,6 +1292,7 @@ h1, h2, h3, h4, h5,
   .ftco-cover-1 > .container {
     position: relative; }
   .ftco-cover-1.overlay {
+    background-color: aliceblue;
     position: relative; }
     .ftco-cover-1.overlay:before {
       content: "";
