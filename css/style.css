@@ -798,14 +798,14 @@ h1, h2, h3, h4, h5,
     background-repeat: no-repeat; }
   .site-section-cover h1 {
     font-size: 4.5rem;
-    color: black;
+    color: white;
     line-height: 1; }
     @media (max-width: 991.98px) {
       .site-section-cover h1 {
         font-size: 2rem; } }
   .site-section-cover p {
     font-size: 18px;
-    color: black; }
+    color: white; }
 
 .site-section {
   padding: 7rem 0; }
