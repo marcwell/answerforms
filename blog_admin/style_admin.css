@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+.table
+{
+font:12px Verdana, Arial, Helvetica, sans-serif;
+}
+.preview
+{
+border:1px solid #888888;
+}
+input {
+	border:1px solid #888888;
+	background-color:#EEEEEE;
+	height:23px;
+	width:461px;
+	margin-bottom:5px;
+	padding:1px 5px;
+	font-weight:bold;
+}
+
+input.button
+{
+	border:1px solid #FFFFFF;
+	background-color:#993333;
+	color:#FFFFFF;
+	height:23px;
+	width:100px;
+	cursor:pointer;
+	font-weight:bold;
+}
+
+input:focus{
+	background-color:#fff;
+	color:#00568f;
+}	
+

@@ -318,3 +318,47 @@ jQuery(document).ready(function($) {
 
 
 });
+
+
+function get_forms(obj)
+{
+    $("#exampleModal").hide();
+	$.post( "get-forms.php", $(obj).serialize())
+  .done(function( data ) {
+	   var myObj = JSON.parse(data);
+	   
+    $("#exampleModal .modal-body").html(myObj.content );
+    $("#exampleModal .modal-title").html(myObj.title );
+	$("#exampleModal").show();
+  });
+  return false;
+}
+function add_to_cart(form_id,state,obj)
+{
+	param="action_val=add_to_cart&forms_id[]="+form_id+"&state="+state;
+	$.post( "cartfunctions.php", param)
+  .done(function( data ) {
+	   $("#no_items_in_cart").html(data);
+	   $(obj).html('Remove from Cart');
+	   $(obj).removeAttr('onclick');
+	   $(obj).attr('onClick', 'remove_from_cart('+form_id+',this,'+state+');');
+	   $(obj).removeClass("btn-secondary");
+	   $(obj).addClass("btn-danger");
+  });
+	
+}
+
+function remove_from_cart(form_id,obj,state)
+{
+		param="action_val=remove_from_cart&pID[]="+form_id;
+	$.post( "cartfunctions.php", param)
+  .done(function( data ) {
+	   $("#no_items_in_cart").html(data);
+	   $(obj).html('Add to Cart');
+	   $(obj).removeAttr('onclick');
+	   $(obj).attr('onClick', 'add_to_cart('+form_id+','+state+',this);');
+	   $(obj).removeClass("btn-danger");
+	   $(obj).addClass("btn-secondary");
+  });
+}
+

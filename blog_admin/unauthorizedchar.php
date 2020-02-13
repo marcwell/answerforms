@@ -1,0 +1,9 @@
+﻿<?php
+$post_content=str_replace("“","\"",$post_content);
+$post_content=str_replace("”","\"",$post_content);
+$post_content=str_replace("‘","'",$post_content);
+$post_content=str_replace("’","'",$post_content);
+$post_content=str_replace("…","...",$post_content);
+$post_content=str_replace("—","-",$post_content);
+$post_content=str_replace("–","-",$post_content);
+?>
