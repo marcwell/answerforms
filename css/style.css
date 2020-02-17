@@ -1425,4 +1425,30 @@ border-top: 3px solid;
 margin: 1em 0;
 padding: 0;
 }
+@media only screen and (min-width: 800px) {
+  /* For mobile phones: */
+  [class*="answer-form"] {
+    width: 100%;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }}
 
+  @media only screen and (max-width: 800px) {
+    /* For mobile phones: */
+    [class*="answer-form"] {
+      width: 100%;
+      margin-top: 20px;
+      margin-bottom: 20px
+    }}
+
+    @media only screen and (max-width: 450px) {
+      [class="site-logo"] {
+        max-width: 70% !important;
+      }
+      img {
+        max-width: 100% !important
+
+      }
+    }
+ 
