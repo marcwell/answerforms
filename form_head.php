@@ -110,20 +110,20 @@
               <div class="service text-left owl-back">
                 
                 <div class="px-md-3">
-                  <a><img src="images/icons/mailbox.svg" class="img-thumbnail icon-img"></a>
+                  <a><img src="images/icons/mailbox.svg" class="img-thumbnail icon-img" alt="Forms to Answer a Civil Summons"></a>
                   <h3><a href="#">Answering a Civil Summons</a></h3>
                   <hr class="owl-break">
-                    <p>What to do when someone sues you.</p>
+                    <p>Forms for quick response to a civil summons to appear in court. Respond to a civil summons quickly and easily using AnswerForms.</p>
                 </div>
               </div>
               <div class="service text-left owl-back">
                 
                 <div class="px-md-3">
-                  <a><img src="images/icons/law.svg" class="img-thumbnail icon-img"></a>
+                  <a><img src="images/icons/law.svg" class="img-thumbnail icon-img" alt="Forms to file a counterclaim"></a>
                   <h3><a href="#">Filing a Counterclaim</a></h3>
                   <hr class="owl-break">
                   
-                    <p>A counterclaim is a claim by the defendant against the plaintiff.</p>
+                    <p>A counterclaim is a claim by the defendant against the plaintiff. Answer Forms offers quick, legally sound templates to generate your counterclaim. </p>
                 </div>
               </div>
             </div>
