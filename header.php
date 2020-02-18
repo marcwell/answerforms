@@ -17,10 +17,12 @@ if(!session_is_registered("cart")) {
   <title>
 <?=($title)?$title:"AnswerForms.Com"?>
 </title>
-
+	
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
+    <meta name="description" content="Answer Forms, ready to file forms to respond to civil lawsuit complaints filed in all 50 states.">
+    <meta name="keywords" content="answer forms, legal forms, civil lawsuit, respon to lawsuit, how to respond, civil litigation, divorce response, respond to eviction">
     <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,700|Oswald:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli|Open+Sans|Open+Sans+Condensed:300&display=swap" rel="stylesheet"> 
 
